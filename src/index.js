@@ -1,6 +1,5 @@
 import express from 'express';
 import graphqlHTTP from 'express-graphql';
-import defaultCtrl from './controllers';
 
 function init(path, _app, _ctrl, _schema) {
   const app = _app || express();
