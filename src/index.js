@@ -1,9 +1,8 @@
 import express from 'express';
 import graphqlHTTP from 'express-graphql';
-import schema from './schema';
 import defaultCtrl from './controllers';
 
-function init(path, _app, _ctrl) {
+function init(path, _app, _ctrl, _schema) {
   const app = _app || express();
   path = path || '/graphql';
   app.use(path, (req, res) => {
@@ -17,7 +16,7 @@ function init(path, _app, _ctrl) {
       }
     };
     graphqlHTTP({
-      schema,
+      schema: _schema,
       graphiql: true,
       context: { ctrl }
     })(req, res);
