@@ -1,23 +1,10 @@
-# Welcome to Innograph
+# Welcome to Matsumgraph
 
-[![Join the chat at https://gitter.im/linnovate/innograph](https://badges.gitter.im/linnovate/innograph.svg)](https://gitter.im/linnovate/innograph?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+Matsunographは[Innograph](https://github.com/linnovate/innograph/blob/devel/src/index.js)ではできなかったスキーマの追加を可能にしたライブラリ。
+ついでにデフォルトで入っていたスキーマとコントローラ定義を削除した。
 
-Innograph was created to define a set of shared schemas for projects and platforms that used graphQL for their object module.
-Many platforms and projects could share the same object module and would be happy to contribute or collaberate around their schemas.
+使い方は[matsum0623/mean](https://github.com/matsum0623/mean)を参照
 
-## Origin Story
 
-Like any superhero technology one much understand the origin story to understand the project...
-The project was created around the need to create an interoptability layer for several projects working on innovation management so they can share schemas, components and microservices.
-
-## Test
-
-<iframe src="https://www.slideshare.net/AcademyXi/slideshelf" width="615px" height="470px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
-
-## Innograph compatability
-
-The next projects have branches which are integrating an innograph based layer.
-* mean.io
-* openIdeal 
-* root
-* x
+Matsunograph is a library that made it possible to add a schema that Innograph could not do.
+At the same time, deleted the default schema and controller definition.
